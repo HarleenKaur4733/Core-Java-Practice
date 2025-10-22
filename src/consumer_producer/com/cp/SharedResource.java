@@ -12,7 +12,7 @@ public class SharedResource {
     public synchronized void addItem(String item) {
         System.out.println("Entered the add item method");
         if (queue.size() > 3) {
-            System.out.println("QUEUE IS FULLLLLLLLL");
+            System.out.println("QUEUE IS FUsLLLLLLLLL");
             isFull = true;
 
         } else {
