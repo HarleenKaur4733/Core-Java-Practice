@@ -23,7 +23,7 @@ public class Main {
             }, threadPoolExecutor).thenApply((String val) -> {
                 // thenApply is sync function, same thread is used which is
                 // used to execute previous async task
-                System.out.println("Thread name whih is running thenApply: " + Thread.currentThread().getName());
+                System.out.println("Thread name which is running thenApply: " + Thread.currentThread().getName());
                 return val + "and Coding";
             });
 
